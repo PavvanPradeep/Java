@@ -6,7 +6,7 @@ public class LL {
         int choice, x, index;
         Scanner reader = new Scanner(System.in);
         while (true) {
-            System.out.println("\n1. Add node");
+            System.out.println("1 Add node");
             System.out.println("2 Remove node with index");
             System.out.println("3 Check if value is in list");
             System.out.println("4 Remove node with value");
@@ -56,7 +56,7 @@ public class LL {
                     reader.close();
                     return;
                 default:
-                    System.out.println("Invalid choice. Please enter a number between 1 and 5.");
+                    System.out.println("Invalid choice");
             }
         }
     }
